@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <h1 class="logo">MyPortfolio</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <img src="assets/profile.jpg" alt="Profile Photo" class="profile-pic">
+        <h2>Hello, I'm <span>Sanket Chahare</span></h2>
+        <p>A passionate Web Developer</p>
+        <a href="#about" class="btn">Learn More</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            Hi! I’m a web developer who loves crafting user-friendly, beautiful, and functional websites. 
+            I specialize in HTML, CSS, and JavaScript, and I’m constantly learning new technologies 
+            to stay ahead in this fast-moving industry.
+        </p>
+        <p>
+            My journey started with curiosity for how websites work, and now I focus on creating 
+            responsive, interactive designs that work across devices. I’m passionate about clean code, 
+            smooth animations, and accessibility.
+        </p>
+        <p>
+            When I’m not coding, I enjoy reading about UI/UX trends, exploring new design tools, and 
+            experimenting with personal projects to sharpen my skills. I believe that great web design 
+            is not just about looks — it’s about creating an experience.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skill">
+            <p>HTML</p>
+            <div class="progress"><div class="bar html"></div></div>
+        </div>
+        <div class="skill">
+            <p>CSS</p>
+            <div class="progress"><div class="bar css"></div></div>
+        </div>
+        <div class="skill">
+            <p>JavaScript</p>
+            <div class="progress"><div class="bar js"></div></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
